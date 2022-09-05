@@ -1,7 +1,7 @@
 import Contact from "./components/Contact/Contact"
 import Home from "./components/Home/Home"
 
-import { BrowserRouter, Link, Routes, Route } from "react-router-dom";
+import { HashRouter, Link, Routes, Route } from "react-router-dom";
 
 const style = {display: "flex", gap: "1rem", padding: "1rem"}
 
