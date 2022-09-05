@@ -12,7 +12,7 @@ function App() {
         <h1>Portfolio</h1>
       </div>
 
-      <BrowserRouter basename="">
+      <HashRouter basename="/">
         <nav style={style}>
           <Link to="/">Home</Link>
           <Link to="/contact">Contact Page</Link> <br />
@@ -22,7 +22,7 @@ function App() {
           <Route path="/contact" element={<Contact />} />
           <Route path="/" element={<Home />} />
         </Routes>
-      </BrowserRouter>
+      </HashRouter>
     </>
     
   )
