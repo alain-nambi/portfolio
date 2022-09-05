@@ -16,3 +16,15 @@ or
 or 
 
 > yarn run dev
+
+
+### Configure github pages
+> npm install gh-pages --save-dev
+
+or 
+
+> yarn add gh-pages --save-dev
+
+### For github pages deployment
+Rename `dist` folder to `build` and run
+> npm run deploy
