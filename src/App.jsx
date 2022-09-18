@@ -1,16 +1,12 @@
-import { HashRouter, Link, Routes, Route } from "react-router-dom";
-
-import Contact from "./components/Contact/Contact"
-import Home from "./components/Home/Home"
+import "./App.css"
+import Header from "./components/Header/Header";
 
 function App() {
   return (
     <>
-      <div className="App">
-        <h1>Portfolio</h1>
-      </div>
+      <Header></Header>
 
-      <HashRouter basename="/">
+      {/* <HashRouter basename="/">
         <nav>
           <Link to="/">Home</Link>
           <Link to="/contact">Contact Page</Link> <br />
@@ -20,7 +16,7 @@ function App() {
           <Route path="/contact" element={<Contact />} />
           <Route path="/" element={<Home />} />
         </Routes>
-      </HashRouter>
+      </HashRouter> */}
     </>
     
   )
