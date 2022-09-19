@@ -1,15 +1,22 @@
 import { useEffect } from "react";
-import "./App.css"
+
+import "./App.css";
+
 import Header from "./components/Header/Header";
+import Home from "./components/Home/Home";
 
 function App() {
   useEffect(() => {
-    document.title = "Portfolio | Home"
-  }, [])
+    document.title = "Portfolio | Home";
+  }, []);
 
   return (
     <>
-      <Header></Header>
+      <Header />
+
+      <main className="main">
+        <Home />
+      </main>
 
       {/* <HashRouter basename="/">
         <nav>
@@ -23,8 +30,7 @@ function App() {
         </Routes>
       </HashRouter> */}
     </>
-    
-  )
+  );
 }
 
-export default App
+export default App;
