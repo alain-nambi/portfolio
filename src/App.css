@@ -113,8 +113,7 @@ img {
 
 /*============ REUSABLE CSS CLASSES ==========*/
 .section {
-    font-size: var(--h1-font-size);
-    color: var(--title-color);
+    padding: 6rem 0 2rem;
 }
 
 .section__title {
