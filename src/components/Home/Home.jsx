@@ -2,6 +2,7 @@ import "./Home.css";
 
 import Social from "./Social";
 import Data from "./Data";
+import ScrollDown from "./ScrollDown";
 
 function Home() {
   return (
@@ -14,6 +15,9 @@ function Home() {
 
           <Data />
         </div>
+
+        <ScrollDown />
+
       </div>
     </section>
   );
